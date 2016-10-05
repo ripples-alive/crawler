@@ -1,0 +1,564 @@
+2016-09-01 15:34:10 [scrapy] INFO: Scrapy 1.0.3 started (bot: it168)
+2016-09-01 15:34:10 [scrapy] INFO: Optional features available: ssl, http11
+2016-09-01 15:34:10 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'it168.spiders', 'FEED_URI': 'document.json', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['it168.spiders'], 'BOT_NAME': 'it168', 'FEED_FORMAT': 'json', 'LOG_FILE': 'document.log'}
+2016-09-01 15:34:10 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState, AutoThrottle
+2016-09-01 15:34:10 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-09-01 15:34:10 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-09-01 15:34:10 [scrapy] INFO: Enabled item pipelines: 
+2016-09-01 15:34:10 [scrapy] INFO: Spider opened
+2016-09-01 15:34:10 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 15:35:10 [scrapy] INFO: Crawled 42 pages (at 42 pages/min), scraped 40 items (at 40 items/min)
+2016-09-01 15:36:10 [scrapy] INFO: Crawled 65 pages (at 23 pages/min), scraped 62 items (at 22 items/min)
+2016-09-01 15:37:10 [scrapy] INFO: Crawled 66 pages (at 1 pages/min), scraped 63 items (at 1 items/min)
+2016-09-01 15:38:10 [scrapy] INFO: Crawled 67 pages (at 1 pages/min), scraped 64 items (at 1 items/min)
+2016-09-01 15:39:10 [scrapy] INFO: Crawled 70 pages (at 3 pages/min), scraped 67 items (at 3 items/min)
+2016-09-01 15:40:10 [scrapy] INFO: Crawled 102 pages (at 32 pages/min), scraped 99 items (at 32 items/min)
+2016-09-01 15:41:10 [scrapy] INFO: Crawled 108 pages (at 6 pages/min), scraped 105 items (at 6 items/min)
+2016-09-01 15:42:10 [scrapy] INFO: Crawled 114 pages (at 6 pages/min), scraped 111 items (at 6 items/min)
+2016-09-01 15:43:10 [scrapy] INFO: Crawled 124 pages (at 10 pages/min), scraped 121 items (at 10 items/min)
+2016-09-01 15:44:10 [scrapy] INFO: Crawled 134 pages (at 10 pages/min), scraped 131 items (at 10 items/min)
+2016-09-01 15:45:10 [scrapy] INFO: Crawled 148 pages (at 14 pages/min), scraped 145 items (at 14 items/min)
+2016-09-01 15:46:10 [scrapy] INFO: Crawled 151 pages (at 3 pages/min), scraped 148 items (at 3 items/min)
+2016-09-01 15:47:10 [scrapy] INFO: Crawled 152 pages (at 1 pages/min), scraped 149 items (at 1 items/min)
+2016-09-01 15:48:10 [scrapy] INFO: Crawled 155 pages (at 3 pages/min), scraped 152 items (at 3 items/min)
+2016-09-01 15:49:10 [scrapy] INFO: Crawled 169 pages (at 14 pages/min), scraped 165 items (at 13 items/min)
+2016-09-01 15:50:10 [scrapy] INFO: Crawled 205 pages (at 36 pages/min), scraped 201 items (at 36 items/min)
+2016-09-01 15:51:10 [scrapy] INFO: Crawled 223 pages (at 18 pages/min), scraped 219 items (at 18 items/min)
+2016-09-01 15:52:10 [scrapy] INFO: Crawled 226 pages (at 3 pages/min), scraped 222 items (at 3 items/min)
+2016-09-01 15:53:10 [scrapy] INFO: Crawled 276 pages (at 50 pages/min), scraped 271 items (at 49 items/min)
+2016-09-01 15:54:10 [scrapy] INFO: Crawled 276 pages (at 0 pages/min), scraped 271 items (at 0 items/min)
+2016-09-01 15:55:10 [scrapy] INFO: Crawled 277 pages (at 1 pages/min), scraped 272 items (at 1 items/min)
+2016-09-01 15:56:10 [scrapy] INFO: Crawled 280 pages (at 3 pages/min), scraped 275 items (at 3 items/min)
+2016-09-01 15:57:10 [scrapy] INFO: Crawled 297 pages (at 17 pages/min), scraped 292 items (at 17 items/min)
+2016-09-01 15:58:10 [scrapy] INFO: Crawled 307 pages (at 10 pages/min), scraped 302 items (at 10 items/min)
+2016-09-01 15:59:10 [scrapy] INFO: Crawled 315 pages (at 8 pages/min), scraped 310 items (at 8 items/min)
+2016-09-01 16:00:10 [scrapy] INFO: Crawled 319 pages (at 4 pages/min), scraped 314 items (at 4 items/min)
+2016-09-01 16:01:10 [scrapy] INFO: Crawled 344 pages (at 25 pages/min), scraped 338 items (at 24 items/min)
+2016-09-01 16:02:10 [scrapy] INFO: Crawled 346 pages (at 2 pages/min), scraped 340 items (at 2 items/min)
+2016-09-01 16:03:10 [scrapy] INFO: Crawled 352 pages (at 6 pages/min), scraped 345 items (at 5 items/min)
+2016-09-01 16:04:08 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-09-01 16:04:08 [scrapy] INFO: Closing spider (shutdown)
+2016-09-01 16:04:10 [scrapy] INFO: Crawled 379 pages (at 27 pages/min), scraped 372 items (at 27 items/min)
+2016-09-01 16:05:10 [scrapy] INFO: Crawled 387 pages (at 8 pages/min), scraped 380 items (at 8 items/min)
+2016-09-01 16:06:10 [scrapy] INFO: Crawled 390 pages (at 3 pages/min), scraped 383 items (at 3 items/min)
+2016-09-01 16:07:10 [scrapy] INFO: Crawled 392 pages (at 2 pages/min), scraped 385 items (at 2 items/min)
+2016-09-01 16:08:10 [scrapy] INFO: Crawled 393 pages (at 1 pages/min), scraped 386 items (at 1 items/min)
+2016-09-01 16:08:54 [scrapy] INFO: Stored json feed (387 items) in: document.json
+2016-09-01 16:08:54 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 134164,
+ 'downloader/request_count': 397,
+ 'downloader/request_method_count/GET': 397,
+ 'downloader/response_bytes': 11907228,
+ 'downloader/response_count': 397,
+ 'downloader/response_status_count/200': 394,
+ 'downloader/response_status_count/500': 3,
+ 'dupefilter/filtered': 35,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 9, 1, 8, 8, 54, 196659),
+ 'item_scraped_count': 387,
+ 'log_count/INFO': 43,
+ 'request_depth_max': 7,
+ 'response_received_count': 394,
+ 'scheduler/dequeued': 397,
+ 'scheduler/dequeued/disk': 397,
+ 'scheduler/enqueued': 501,
+ 'scheduler/enqueued/disk': 501,
+ 'start_time': datetime.datetime(2016, 9, 1, 7, 34, 10, 710675)}
+2016-09-01 16:08:54 [scrapy] INFO: Spider closed (shutdown)
+2016-09-01 16:09:59 [scrapy] INFO: Scrapy 1.0.3 started (bot: it168)
+2016-09-01 16:09:59 [scrapy] INFO: Optional features available: ssl, http11
+2016-09-01 16:09:59 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'it168.spiders', 'FEED_URI': 'document.json', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['it168.spiders'], 'BOT_NAME': 'it168', 'FEED_FORMAT': 'json', 'LOG_FILE': 'document.log'}
+2016-09-01 16:09:59 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-09-01 16:09:59 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-09-01 16:09:59 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-09-01 16:09:59 [scrapy] INFO: Enabled item pipelines: 
+2016-09-01 16:09:59 [scrapy] INFO: Spider opened
+2016-09-01 16:09:59 [scrapy] INFO: Resuming crawl (104 requests scheduled)
+2016-09-01 16:09:59 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-01 16:10:59 [scrapy] INFO: Crawled 37 pages (at 37 pages/min), scraped 37 items (at 37 items/min)
+2016-09-01 16:11:59 [scrapy] INFO: Crawled 119 pages (at 82 pages/min), scraped 118 items (at 81 items/min)
+2016-09-01 16:12:59 [scrapy] INFO: Crawled 209 pages (at 90 pages/min), scraped 207 items (at 89 items/min)
+2016-09-01 16:13:59 [scrapy] INFO: Crawled 262 pages (at 53 pages/min), scraped 259 items (at 52 items/min)
+2016-09-01 16:14:59 [scrapy] INFO: Crawled 311 pages (at 49 pages/min), scraped 308 items (at 49 items/min)
+2016-09-01 16:15:59 [scrapy] INFO: Crawled 366 pages (at 55 pages/min), scraped 360 items (at 52 items/min)
+2016-09-01 16:16:59 [scrapy] INFO: Crawled 492 pages (at 126 pages/min), scraped 485 items (at 125 items/min)
+2016-09-01 16:17:59 [scrapy] INFO: Crawled 668 pages (at 176 pages/min), scraped 659 items (at 174 items/min)
+2016-09-01 16:18:59 [scrapy] INFO: Crawled 862 pages (at 194 pages/min), scraped 850 items (at 191 items/min)
+2016-09-01 16:19:59 [scrapy] INFO: Crawled 881 pages (at 19 pages/min), scraped 867 items (at 17 items/min)
+2016-09-01 16:20:59 [scrapy] INFO: Crawled 931 pages (at 50 pages/min), scraped 917 items (at 50 items/min)
+2016-09-01 16:21:59 [scrapy] INFO: Crawled 1028 pages (at 97 pages/min), scraped 1013 items (at 96 items/min)
+2016-09-01 16:22:59 [scrapy] INFO: Crawled 1064 pages (at 36 pages/min), scraped 1049 items (at 36 items/min)
+2016-09-01 16:23:59 [scrapy] INFO: Crawled 1137 pages (at 73 pages/min), scraped 1121 items (at 72 items/min)
+2016-09-01 16:24:59 [scrapy] INFO: Crawled 1238 pages (at 101 pages/min), scraped 1221 items (at 100 items/min)
+2016-09-01 16:25:59 [scrapy] INFO: Crawled 1297 pages (at 59 pages/min), scraped 1278 items (at 57 items/min)
+2016-09-01 16:26:59 [scrapy] INFO: Crawled 1416 pages (at 119 pages/min), scraped 1396 items (at 118 items/min)
+2016-09-01 16:27:59 [scrapy] INFO: Crawled 1467 pages (at 51 pages/min), scraped 1445 items (at 49 items/min)
+2016-09-01 16:28:59 [scrapy] INFO: Crawled 1548 pages (at 81 pages/min), scraped 1527 items (at 82 items/min)
+2016-09-01 16:29:59 [scrapy] INFO: Crawled 1606 pages (at 58 pages/min), scraped 1583 items (at 56 items/min)
+2016-09-01 16:30:59 [scrapy] INFO: Crawled 1656 pages (at 50 pages/min), scraped 1632 items (at 49 items/min)
+2016-09-01 16:31:59 [scrapy] INFO: Crawled 1736 pages (at 80 pages/min), scraped 1712 items (at 80 items/min)
+2016-09-01 16:32:59 [scrapy] INFO: Crawled 1846 pages (at 110 pages/min), scraped 1819 items (at 107 items/min)
+2016-09-01 16:33:59 [scrapy] INFO: Crawled 1947 pages (at 101 pages/min), scraped 1920 items (at 101 items/min)
+2016-09-01 16:34:59 [scrapy] INFO: Crawled 2021 pages (at 74 pages/min), scraped 1993 items (at 73 items/min)
+2016-09-01 16:35:59 [scrapy] INFO: Crawled 2159 pages (at 138 pages/min), scraped 2128 items (at 135 items/min)
+2016-09-01 16:36:59 [scrapy] INFO: Crawled 2348 pages (at 189 pages/min), scraped 2315 items (at 187 items/min)
+2016-09-01 16:37:59 [scrapy] INFO: Crawled 2458 pages (at 110 pages/min), scraped 2424 items (at 109 items/min)
+2016-09-01 16:38:59 [scrapy] INFO: Crawled 2571 pages (at 113 pages/min), scraped 2535 items (at 111 items/min)
+2016-09-01 16:39:59 [scrapy] INFO: Crawled 2609 pages (at 38 pages/min), scraped 2573 items (at 38 items/min)
+2016-09-01 16:40:59 [scrapy] INFO: Crawled 2702 pages (at 93 pages/min), scraped 2664 items (at 91 items/min)
+2016-09-01 16:41:59 [scrapy] INFO: Crawled 2776 pages (at 74 pages/min), scraped 2738 items (at 74 items/min)
+2016-09-01 16:42:59 [scrapy] INFO: Crawled 2873 pages (at 97 pages/min), scraped 2834 items (at 96 items/min)
+2016-09-01 16:43:59 [scrapy] INFO: Crawled 2972 pages (at 99 pages/min), scraped 2931 items (at 97 items/min)
+2016-09-01 16:44:59 [scrapy] INFO: Crawled 3039 pages (at 67 pages/min), scraped 2998 items (at 67 items/min)
+2016-09-01 16:45:59 [scrapy] INFO: Crawled 3120 pages (at 81 pages/min), scraped 3078 items (at 80 items/min)
+2016-09-01 16:46:59 [scrapy] INFO: Crawled 3227 pages (at 107 pages/min), scraped 3183 items (at 105 items/min)
+2016-09-01 16:47:59 [scrapy] INFO: Crawled 3296 pages (at 69 pages/min), scraped 3251 items (at 68 items/min)
+2016-09-01 16:48:59 [scrapy] INFO: Crawled 3366 pages (at 70 pages/min), scraped 3319 items (at 68 items/min)
+2016-09-01 16:49:59 [scrapy] INFO: Crawled 3394 pages (at 28 pages/min), scraped 3348 items (at 29 items/min)
+2016-09-01 16:50:59 [scrapy] INFO: Crawled 3441 pages (at 47 pages/min), scraped 3395 items (at 47 items/min)
+2016-09-01 16:51:59 [scrapy] INFO: Crawled 3644 pages (at 203 pages/min), scraped 3594 items (at 199 items/min)
+2016-09-01 16:52:59 [scrapy] INFO: Crawled 3690 pages (at 46 pages/min), scraped 3640 items (at 46 items/min)
+2016-09-01 16:53:59 [scrapy] INFO: Crawled 3721 pages (at 31 pages/min), scraped 3671 items (at 31 items/min)
+2016-09-01 16:54:59 [scrapy] INFO: Crawled 3881 pages (at 160 pages/min), scraped 3828 items (at 157 items/min)
+2016-09-01 16:55:59 [scrapy] INFO: Crawled 3916 pages (at 35 pages/min), scraped 3863 items (at 35 items/min)
+2016-09-01 16:56:59 [scrapy] INFO: Crawled 3939 pages (at 23 pages/min), scraped 3885 items (at 22 items/min)
+2016-09-01 16:57:59 [scrapy] INFO: Crawled 4026 pages (at 87 pages/min), scraped 3971 items (at 86 items/min)
+2016-09-01 16:58:59 [scrapy] INFO: Crawled 4067 pages (at 41 pages/min), scraped 4012 items (at 41 items/min)
+2016-09-01 16:59:59 [scrapy] INFO: Crawled 4212 pages (at 145 pages/min), scraped 4155 items (at 143 items/min)
+2016-09-01 17:00:59 [scrapy] INFO: Crawled 4331 pages (at 119 pages/min), scraped 4273 items (at 118 items/min)
+2016-09-01 17:01:59 [scrapy] INFO: Crawled 4386 pages (at 55 pages/min), scraped 4326 items (at 53 items/min)
+2016-09-01 17:02:59 [scrapy] INFO: Crawled 4539 pages (at 153 pages/min), scraped 4477 items (at 151 items/min)
+2016-09-01 17:03:59 [scrapy] INFO: Crawled 4667 pages (at 128 pages/min), scraped 4604 items (at 127 items/min)
+2016-09-01 17:04:59 [scrapy] INFO: Crawled 4751 pages (at 84 pages/min), scraped 4686 items (at 82 items/min)
+2016-09-01 17:05:59 [scrapy] INFO: Crawled 4993 pages (at 242 pages/min), scraped 4924 items (at 238 items/min)
+2016-09-01 17:06:59 [scrapy] INFO: Crawled 5272 pages (at 279 pages/min), scraped 5200 items (at 276 items/min)
+2016-09-01 17:07:59 [scrapy] INFO: Crawled 5590 pages (at 318 pages/min), scraped 5514 items (at 314 items/min)
+2016-09-01 17:08:59 [scrapy] INFO: Crawled 5771 pages (at 181 pages/min), scraped 5693 items (at 179 items/min)
+2016-09-01 17:09:59 [scrapy] INFO: Crawled 5952 pages (at 181 pages/min), scraped 5872 items (at 179 items/min)
+2016-09-01 17:10:59 [scrapy] INFO: Crawled 6071 pages (at 119 pages/min), scraped 5989 items (at 117 items/min)
+2016-09-01 17:11:59 [scrapy] INFO: Crawled 6183 pages (at 112 pages/min), scraped 6101 items (at 112 items/min)
+2016-09-01 17:12:59 [scrapy] INFO: Crawled 6274 pages (at 91 pages/min), scraped 6189 items (at 88 items/min)
+2016-09-01 17:13:59 [scrapy] INFO: Crawled 6396 pages (at 122 pages/min), scraped 6310 items (at 121 items/min)
+2016-09-01 17:14:59 [scrapy] INFO: Crawled 6471 pages (at 75 pages/min), scraped 6384 items (at 74 items/min)
+2016-09-01 17:15:59 [scrapy] INFO: Crawled 6548 pages (at 77 pages/min), scraped 6460 items (at 76 items/min)
+2016-09-01 17:16:59 [scrapy] INFO: Crawled 6618 pages (at 70 pages/min), scraped 6530 items (at 70 items/min)
+2016-09-01 17:17:59 [scrapy] INFO: Crawled 6769 pages (at 151 pages/min), scraped 6677 items (at 147 items/min)
+2016-09-01 17:18:59 [scrapy] INFO: Crawled 6931 pages (at 162 pages/min), scraped 6839 items (at 162 items/min)
+2016-09-01 17:19:59 [scrapy] INFO: Crawled 7123 pages (at 192 pages/min), scraped 7027 items (at 188 items/min)
+2016-09-01 17:20:59 [scrapy] INFO: Crawled 7295 pages (at 172 pages/min), scraped 7198 items (at 171 items/min)
+2016-09-01 17:21:59 [scrapy] INFO: Crawled 7455 pages (at 160 pages/min), scraped 7356 items (at 158 items/min)
+2016-09-01 17:22:59 [scrapy] INFO: Crawled 7627 pages (at 172 pages/min), scraped 7525 items (at 169 items/min)
+2016-09-01 17:23:59 [scrapy] INFO: Crawled 7741 pages (at 114 pages/min), scraped 7638 items (at 113 items/min)
+2016-09-01 17:24:59 [scrapy] INFO: Crawled 7916 pages (at 175 pages/min), scraped 7811 items (at 173 items/min)
+2016-09-01 17:25:59 [scrapy] INFO: Crawled 8109 pages (at 193 pages/min), scraped 8000 items (at 189 items/min)
+2016-09-01 17:26:59 [scrapy] INFO: Crawled 8310 pages (at 201 pages/min), scraped 8199 items (at 199 items/min)
+2016-09-01 17:27:59 [scrapy] INFO: Crawled 8508 pages (at 198 pages/min), scraped 8394 items (at 195 items/min)
+2016-09-01 17:28:59 [scrapy] INFO: Crawled 8694 pages (at 186 pages/min), scraped 8578 items (at 184 items/min)
+2016-09-01 17:29:59 [scrapy] INFO: Crawled 8904 pages (at 210 pages/min), scraped 8785 items (at 207 items/min)
+2016-09-01 17:30:59 [scrapy] INFO: Crawled 9042 pages (at 138 pages/min), scraped 8922 items (at 137 items/min)
+2016-09-01 17:31:59 [scrapy] INFO: Crawled 9224 pages (at 182 pages/min), scraped 9101 items (at 179 items/min)
+2016-09-01 17:32:59 [scrapy] INFO: Crawled 9368 pages (at 144 pages/min), scraped 9243 items (at 142 items/min)
+2016-09-01 17:33:59 [scrapy] INFO: Crawled 9480 pages (at 112 pages/min), scraped 9353 items (at 110 items/min)
+2016-09-01 17:34:59 [scrapy] INFO: Crawled 9614 pages (at 134 pages/min), scraped 9485 items (at 132 items/min)
+2016-09-01 17:35:37 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001665121.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_128.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:35:42 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001665131.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_128.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:35:42 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001665132.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_128.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:35:44 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001665130.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_128.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:35:44 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001665129.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_128.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:35:59 [scrapy] INFO: Crawled 9727 pages (at 113 pages/min), scraped 9592 items (at 107 items/min)
+2016-09-01 17:36:59 [scrapy] INFO: Crawled 9831 pages (at 104 pages/min), scraped 9695 items (at 103 items/min)
+2016-09-01 17:37:59 [scrapy] INFO: Crawled 9944 pages (at 113 pages/min), scraped 9806 items (at 111 items/min)
+2016-09-01 17:38:59 [scrapy] INFO: Crawled 9975 pages (at 31 pages/min), scraped 9837 items (at 31 items/min)
+2016-09-01 17:39:59 [scrapy] INFO: Crawled 10088 pages (at 113 pages/min), scraped 9948 items (at 111 items/min)
+2016-09-01 17:40:59 [scrapy] INFO: Crawled 10283 pages (at 195 pages/min), scraped 10140 items (at 192 items/min)
+2016-09-01 17:41:59 [scrapy] INFO: Crawled 10448 pages (at 165 pages/min), scraped 10302 items (at 162 items/min)
+2016-09-01 17:42:59 [scrapy] INFO: Crawled 10675 pages (at 227 pages/min), scraped 10528 items (at 226 items/min)
+2016-09-01 17:43:59 [scrapy] INFO: Crawled 10841 pages (at 166 pages/min), scraped 10692 items (at 164 items/min)
+2016-09-01 17:44:59 [scrapy] INFO: Crawled 10875 pages (at 34 pages/min), scraped 10726 items (at 34 items/min)
+2016-09-01 17:45:59 [scrapy] INFO: Crawled 10998 pages (at 123 pages/min), scraped 10846 items (at 120 items/min)
+2016-09-01 17:46:57 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001657736.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_148.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:46:59 [scrapy] INFO: Crawled 11191 pages (at 193 pages/min), scraped 11036 items (at 190 items/min)
+2016-09-01 17:47:59 [scrapy] INFO: Crawled 11398 pages (at 207 pages/min), scraped 11240 items (at 204 items/min)
+2016-09-01 17:48:59 [scrapy] INFO: Crawled 11619 pages (at 221 pages/min), scraped 11458 items (at 218 items/min)
+2016-09-01 17:49:59 [scrapy] INFO: Crawled 11830 pages (at 211 pages/min), scraped 11665 items (at 207 items/min)
+2016-09-01 17:50:59 [scrapy] INFO: Crawled 12009 pages (at 179 pages/min), scraped 11843 items (at 178 items/min)
+2016-09-01 17:51:59 [scrapy] INFO: Crawled 12198 pages (at 189 pages/min), scraped 12029 items (at 186 items/min)
+2016-09-01 17:52:20 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001655330.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_163.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:52:31 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001655331.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_163.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:52:59 [scrapy] INFO: Crawled 12434 pages (at 236 pages/min), scraped 12260 items (at 231 items/min)
+2016-09-01 17:53:02 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001655323.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_164.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:53:02 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001655325.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_164.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:53:02 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001655326.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_164.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:53:02 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001655324.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_164.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:53:04 [scrapy] ERROR: Spider error processing <GET http://wenku.it168.com/d_001655322.shtml> (referer: http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_164.shtml)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Users/Jayvic/Workspaces/sui/crawl/it168/it168/spiders/document.py", line 29, in parse_post
+    '//div[@class="bor13"]/div/h1/a/text()').extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2016-09-01 17:53:59 [scrapy] INFO: Crawled 12676 pages (at 242 pages/min), scraped 12494 items (at 234 items/min)
+2016-09-01 17:54:59 [scrapy] INFO: Crawled 12883 pages (at 207 pages/min), scraped 12699 items (at 205 items/min)
+2016-09-01 17:55:59 [scrapy] INFO: Crawled 12992 pages (at 109 pages/min), scraped 12806 items (at 107 items/min)
+2016-09-01 17:56:59 [scrapy] INFO: Crawled 13178 pages (at 186 pages/min), scraped 12990 items (at 184 items/min)
+2016-09-01 17:57:59 [scrapy] INFO: Crawled 13291 pages (at 113 pages/min), scraped 13101 items (at 111 items/min)
+2016-09-01 17:58:59 [scrapy] INFO: Crawled 13425 pages (at 134 pages/min), scraped 13233 items (at 132 items/min)
+2016-09-01 17:59:59 [scrapy] INFO: Crawled 13656 pages (at 231 pages/min), scraped 13454 items (at 221 items/min)
+2016-09-01 18:00:59 [scrapy] INFO: Crawled 13888 pages (at 232 pages/min), scraped 13683 items (at 229 items/min)
+2016-09-01 18:01:59 [scrapy] INFO: Crawled 13930 pages (at 42 pages/min), scraped 13726 items (at 43 items/min)
+2016-09-01 18:02:59 [scrapy] INFO: Crawled 13974 pages (at 44 pages/min), scraped 13769 items (at 43 items/min)
+2016-09-01 18:03:59 [scrapy] INFO: Crawled 14219 pages (at 245 pages/min), scraped 14010 items (at 241 items/min)
+2016-09-01 18:04:59 [scrapy] INFO: Crawled 14482 pages (at 263 pages/min), scraped 14268 items (at 258 items/min)
+2016-09-01 18:05:59 [scrapy] INFO: Crawled 14717 pages (at 235 pages/min), scraped 14503 items (at 235 items/min)
+2016-09-01 18:06:59 [scrapy] INFO: Crawled 14753 pages (at 36 pages/min), scraped 14539 items (at 36 items/min)
+2016-09-01 18:19:34 [scrapy] INFO: Crawled 14766 pages (at 13 pages/min), scraped 14549 items (at 10 items/min)
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647739.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647741.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647745.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647746.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647766.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648170.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648062.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648084.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647970.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647972.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647973.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647975.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647738.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001649344.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001649369.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647818.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647820.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647821.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647822.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647826.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647828.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647829.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647833.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647834.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647835.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647836.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647837.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647838.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647839.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647840.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647841.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647845.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647848.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647849.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647874.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647876.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647875.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647877.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647878.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647900.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647901.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647902.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647903.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647904.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647914.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647915.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647916.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647917.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647918.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647919.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647920.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647921.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647922.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647923.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647924.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647925.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647926.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647927.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647928.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647929.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647930.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647931.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647932.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647933.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647934.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647950.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647952.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647953.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647954.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647955.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647956.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647957.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647958.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647959.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647960.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647961.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647962.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647963.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647964.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647965.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647966.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647967.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647968.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647969.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/list/0_0_0_0_0_0_0_1_0_197.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647976.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647978.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647979.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647980.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647981.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647982.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647983.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647984.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648016.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648017.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648018.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648046.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648047.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648048.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648096.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648097.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648099.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648103.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648104.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648105.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648106.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648107.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648112.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:35 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648113.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648114.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648124.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648128.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648129.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648131.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648141.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648142.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648143.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648144.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648145.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648147.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648148.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648149.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648150.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648151.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648152.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648153.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648164.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648166.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648167.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648168.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648169.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648157.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648158.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648159.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648160.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648161.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648162.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648165.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648163.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648154.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:36 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001648156.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:43 [scrapy] ERROR: Error downloading <GET http://wenku.it168.com/d_001647974.shtml>: No route to host: 51: Network is unreachable.
+2016-09-01 18:19:43 [scrapy] INFO: Closing spider (finished)
+2016-09-01 18:19:43 [scrapy] INFO: Stored json feed (14550 items) in: document.json
+2016-09-01 18:19:43 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 426,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectError': 5,
+ 'downloader/exception_type_count/twisted.internet.error.NoRouteError': 412,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 8,
+ 'downloader/request_bytes': 5289391,
+ 'downloader/request_count': 15223,
+ 'downloader/request_method_count/GET': 15223,
+ 'downloader/response_bytes': 413770124,
+ 'downloader/response_count': 14797,
+ 'downloader/response_status_count/200': 14760,
+ 'downloader/response_status_count/408': 2,
+ 'downloader/response_status_count/500': 33,
+ 'downloader/response_status_count/504': 2,
+ 'dupefilter/filtered': 169,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 9, 1, 10, 19, 43, 322286),
+ 'item_scraped_count': 14550,
+ 'log_count/ERROR': 155,
+ 'log_count/INFO': 127,
+ 'request_depth_max': 196,
+ 'response_received_count': 14766,
+ 'scheduler/dequeued': 15223,
+ 'scheduler/dequeued/disk': 15223,
+ 'scheduler/enqueued': 15119,
+ 'scheduler/enqueued/disk': 15119,
+ 'spider_exceptions/AttributeError': 13,
+ 'start_time': datetime.datetime(2016, 9, 1, 8, 9, 59, 537067)}
+2016-09-01 18:19:43 [scrapy] INFO: Spider closed (finished)
