@@ -1,0 +1,32 @@
+2016-08-17 15:52:39 [scrapy] INFO: Scrapy 1.0.3 started (bot: scrapy_59store)
+2016-08-17 15:52:39 [scrapy] INFO: Optional features available: ssl, http11
+2016-08-17 15:52:39 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'scrapy_59store.spiders', 'FEED_URI': 'print_dorm.json', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['scrapy_59store.spiders'], 'RETRY_HTTP_CODES': [500, 502, 503, 504, 400, 408, 302], 'BOT_NAME': 'scrapy_59store', 'RETRY_TIMES': 5, 'FEED_FORMAT': 'json', 'LOG_FILE': 'print_dorm.log'}
+2016-08-17 15:52:39 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState, AutoThrottle
+2016-08-17 15:52:39 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-08-17 15:52:39 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-08-17 15:52:39 [scrapy] INFO: Enabled item pipelines: 
+2016-08-17 15:52:39 [scrapy] INFO: Spider opened
+2016-08-17 15:52:39 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-08-17 15:53:39 [scrapy] INFO: Crawled 1330 pages (at 1330 pages/min), scraped 10336 items (at 10336 items/min)
+2016-08-17 15:54:39 [scrapy] INFO: Crawled 2871 pages (at 1541 pages/min), scraped 21920 items (at 11584 items/min)
+2016-08-17 15:55:19 [scrapy] INFO: Closing spider (finished)
+2016-08-17 15:55:19 [scrapy] INFO: Stored json feed (29948 items) in: print_dorm.json
+2016-08-17 15:55:19 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1185105,
+ 'downloader/request_count': 3923,
+ 'downloader/request_method_count/GET': 3923,
+ 'downloader/response_bytes': 3337452,
+ 'downloader/response_count': 3923,
+ 'downloader/response_status_count/200': 3923,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 8, 17, 7, 55, 19, 956250),
+ 'item_scraped_count': 29948,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 4,
+ 'response_received_count': 3923,
+ 'scheduler/dequeued': 3923,
+ 'scheduler/dequeued/disk': 3923,
+ 'scheduler/enqueued': 3923,
+ 'scheduler/enqueued/disk': 3923,
+ 'start_time': datetime.datetime(2016, 8, 17, 7, 52, 39, 549898)}
+2016-08-17 15:55:19 [scrapy] INFO: Spider closed (finished)

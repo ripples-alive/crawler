@@ -43,7 +43,8 @@ AUTOTHROTTLE_ENABLED=True
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-    'Host': 'yemao.59store.com',
+    'Host': 'print.59store.com',
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
 }
 
 # Enable or disable spider middlewares

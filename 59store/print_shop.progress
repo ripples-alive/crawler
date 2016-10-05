@@ -1,0 +1,50 @@
+2016-08-17 16:58:04 [scrapy] INFO: Scrapy 1.0.3 started (bot: scrapy_59store)
+2016-08-17 16:58:04 [scrapy] INFO: Optional features available: ssl, http11
+2016-08-17 16:58:04 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'scrapy_59store.spiders', 'FEED_URI': 'print_shop.json', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['scrapy_59store.spiders'], 'RETRY_HTTP_CODES': [500, 502, 503, 504, 400, 408, 302], 'BOT_NAME': 'scrapy_59store', 'RETRY_TIMES': 5, 'FEED_FORMAT': 'json', 'LOG_FILE': 'print_shop.log'}
+2016-08-17 16:58:04 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState, AutoThrottle
+2016-08-17 16:58:04 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-08-17 16:58:04 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-08-17 16:58:04 [scrapy] INFO: Enabled item pipelines: 
+2016-08-17 16:58:04 [scrapy] INFO: Spider opened
+2016-08-17 16:58:04 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-08-17 16:59:04 [scrapy] INFO: Crawled 1532 pages (at 1532 pages/min), scraped 1755 items (at 1755 items/min)
+2016-08-17 17:00:04 [scrapy] INFO: Crawled 3264 pages (at 1732 pages/min), scraped 3763 items (at 2008 items/min)
+2016-08-17 17:01:04 [scrapy] INFO: Crawled 4886 pages (at 1622 pages/min), scraped 5898 items (at 2135 items/min)
+2016-08-17 17:02:04 [scrapy] INFO: Crawled 6526 pages (at 1640 pages/min), scraped 7783 items (at 1885 items/min)
+2016-08-17 17:03:04 [scrapy] INFO: Crawled 8340 pages (at 1814 pages/min), scraped 9491 items (at 1708 items/min)
+2016-08-17 17:04:04 [scrapy] INFO: Crawled 10131 pages (at 1791 pages/min), scraped 11293 items (at 1802 items/min)
+2016-08-17 17:05:04 [scrapy] INFO: Crawled 11816 pages (at 1685 pages/min), scraped 13389 items (at 2096 items/min)
+2016-08-17 17:06:04 [scrapy] INFO: Crawled 13586 pages (at 1770 pages/min), scraped 15094 items (at 1705 items/min)
+2016-08-17 17:07:04 [scrapy] INFO: Crawled 15308 pages (at 1722 pages/min), scraped 16932 items (at 1838 items/min)
+2016-08-17 17:08:04 [scrapy] INFO: Crawled 17130 pages (at 1822 pages/min), scraped 18871 items (at 1939 items/min)
+2016-08-17 17:09:04 [scrapy] INFO: Crawled 18795 pages (at 1665 pages/min), scraped 20815 items (at 1944 items/min)
+2016-08-17 17:10:04 [scrapy] INFO: Crawled 20508 pages (at 1713 pages/min), scraped 22829 items (at 2014 items/min)
+2016-08-17 17:11:04 [scrapy] INFO: Crawled 22221 pages (at 1713 pages/min), scraped 24923 items (at 2094 items/min)
+2016-08-17 17:12:04 [scrapy] INFO: Crawled 23834 pages (at 1613 pages/min), scraped 27171 items (at 2248 items/min)
+2016-08-17 17:13:04 [scrapy] INFO: Crawled 25473 pages (at 1639 pages/min), scraped 29279 items (at 2108 items/min)
+2016-08-17 17:14:04 [scrapy] INFO: Crawled 27133 pages (at 1660 pages/min), scraped 31641 items (at 2362 items/min)
+2016-08-17 17:15:04 [scrapy] INFO: Crawled 28838 pages (at 1705 pages/min), scraped 33535 items (at 1894 items/min)
+2016-08-17 17:16:04 [scrapy] INFO: Crawled 30552 pages (at 1714 pages/min), scraped 35565 items (at 2030 items/min)
+2016-08-17 17:17:04 [scrapy] INFO: Crawled 31951 pages (at 1399 pages/min), scraped 38384 items (at 2819 items/min)
+2016-08-17 17:18:04 [scrapy] INFO: Crawled 33596 pages (at 1645 pages/min), scraped 40883 items (at 2499 items/min)
+2016-08-17 17:18:14 [scrapy] INFO: Closing spider (finished)
+2016-08-17 17:18:14 [scrapy] INFO: Stored json feed (41346 items) in: print_shop.json
+2016-08-17 17:18:14 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10651094,
+ 'downloader/request_count': 33871,
+ 'downloader/request_method_count/GET': 33871,
+ 'downloader/response_bytes': 14628929,
+ 'downloader/response_count': 33871,
+ 'downloader/response_status_count/200': 33871,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 8, 17, 9, 18, 14, 988014),
+ 'item_scraped_count': 41346,
+ 'log_count/INFO': 28,
+ 'request_depth_max': 5,
+ 'response_received_count': 33871,
+ 'scheduler/dequeued': 33871,
+ 'scheduler/dequeued/disk': 33871,
+ 'scheduler/enqueued': 33871,
+ 'scheduler/enqueued/disk': 33871,
+ 'start_time': datetime.datetime(2016, 8, 17, 8, 58, 4, 572074)}
+2016-08-17 17:18:14 [scrapy] INFO: Spider closed (finished)
