@@ -1,0 +1,71 @@
+2016-11-30 10:30:56 [scrapy] INFO: Scrapy 1.2.1 started (bot: diyifanwen)
+2016-11-30 10:30:56 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'diyifanwen.spiders', 'FEED_URI': 'document.json', 'LOG_LEVEL': 'INFO', 'AUTOTHROTTLE_TARGET_CONCURRENCY': 10.0, 'SPIDER_MODULES': ['diyifanwen.spiders'], 'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'diyifanwen', 'ROBOTSTXT_OBEY': True, 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36', 'FEED_FORMAT': 'json', 'LOG_FILE': 'document.status'}
+2016-11-30 10:30:56 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.spiderstate.SpiderState',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2016-11-30 10:30:56 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-11-30 10:30:56 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-11-30 10:30:56 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-11-30 10:30:56 [scrapy] INFO: Spider opened
+2016-11-30 10:30:56 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-11-30 10:31:56 [scrapy] INFO: Crawled 3733 pages (at 3733 pages/min), scraped 3568 items (at 3568 items/min)
+2016-11-30 10:32:56 [scrapy] INFO: Crawled 8108 pages (at 4375 pages/min), scraped 7777 items (at 4209 items/min)
+2016-11-30 10:33:56 [scrapy] INFO: Crawled 12511 pages (at 4403 pages/min), scraped 12008 items (at 4231 items/min)
+2016-11-30 10:34:56 [scrapy] INFO: Crawled 16774 pages (at 4263 pages/min), scraped 16106 items (at 4098 items/min)
+2016-11-30 10:35:56 [scrapy] INFO: Crawled 21254 pages (at 4480 pages/min), scraped 20406 items (at 4300 items/min)
+2016-11-30 10:36:56 [scrapy] INFO: Crawled 25546 pages (at 4292 pages/min), scraped 24539 items (at 4133 items/min)
+2016-11-30 10:37:56 [scrapy] INFO: Crawled 29960 pages (at 4414 pages/min), scraped 28769 items (at 4230 items/min)
+2016-11-30 10:38:56 [scrapy] INFO: Crawled 34225 pages (at 4265 pages/min), scraped 32870 items (at 4101 items/min)
+2016-11-30 10:39:56 [scrapy] INFO: Crawled 38556 pages (at 4331 pages/min), scraped 37024 items (at 4154 items/min)
+2016-11-30 10:40:56 [scrapy] INFO: Crawled 42861 pages (at 4305 pages/min), scraped 41164 items (at 4140 items/min)
+2016-11-30 10:41:56 [scrapy] INFO: Crawled 47276 pages (at 4415 pages/min), scraped 45405 items (at 4241 items/min)
+2016-11-30 10:42:56 [scrapy] INFO: Crawled 51751 pages (at 4475 pages/min), scraped 49709 items (at 4304 items/min)
+2016-11-30 10:43:56 [scrapy] INFO: Crawled 56224 pages (at 4473 pages/min), scraped 54004 items (at 4295 items/min)
+2016-11-30 10:44:56 [scrapy] INFO: Crawled 60661 pages (at 4437 pages/min), scraped 58269 items (at 4265 items/min)
+2016-11-30 10:45:56 [scrapy] INFO: Crawled 65054 pages (at 4393 pages/min), scraped 62494 items (at 4225 items/min)
+2016-11-30 10:46:56 [scrapy] INFO: Crawled 69638 pages (at 4584 pages/min), scraped 66900 items (at 4406 items/min)
+2016-11-30 10:47:56 [scrapy] INFO: Crawled 73850 pages (at 4212 pages/min), scraped 70957 items (at 4057 items/min)
+2016-11-30 10:48:26 [scrapy] INFO: Closing spider (finished)
+2016-11-30 10:48:26 [scrapy] INFO: Stored json feed (72359 items) in: document.json
+2016-11-30 10:48:26 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 32489097,
+ 'downloader/request_count': 75307,
+ 'downloader/request_method_count/GET': 75307,
+ 'downloader/response_bytes': 628699127,
+ 'downloader/response_count': 75307,
+ 'downloader/response_status_count/200': 75307,
+ 'dupefilter/filtered': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 11, 30, 2, 48, 26, 594963),
+ 'item_scraped_count': 72359,
+ 'log_count/INFO': 25,
+ 'request_depth_max': 81,
+ 'response_received_count': 75307,
+ 'scheduler/dequeued': 75306,
+ 'scheduler/dequeued/disk': 75306,
+ 'scheduler/enqueued': 75306,
+ 'scheduler/enqueued/disk': 75306,
+ 'start_time': datetime.datetime(2016, 11, 30, 2, 30, 56, 712590)}
+2016-11-30 10:48:26 [scrapy] INFO: Spider closed (finished)
